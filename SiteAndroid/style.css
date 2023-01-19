@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Android";
+    src: url(fontes/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #84E1AD;
+}
+header{
+    background-image: linear-gradient(to top, #1A5C38, #38C979);
+    height: 150px;
+
+}
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 5px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+footer{
+    margin-top:20px ;
+    padding: 10px;
+    background-color: #1A5C38;
+}
+div#Bloco{
+    background-color: #C5EBD6;
+    border-radius: 15px;
+    width: 750px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+div#divTitulo{
+    margin:auto;
+    width: 400px;
+}
+div#blocoVideo{
+    background-color: #1A5C38;
+    height: 350px;
+    margin: 15px 0px;
+}
+div#Menu{
+    margin-top: 30px;
+}
+div#blocoLista{
+    width: 700px;
+    margin: auto;
+}
+h1#Titulo{
+    font-size: 22px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+}
+p#subtitulo{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgba(211, 211, 211, 0.685);
+}
+p#textoFooter{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+p#pBloco{
+    background-color: #2FA866;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.pBloco{
+    padding: 10px;
+}
+.pComum{
+    text-align: left;
+    text-indent:30px;
+    margin: 20px;
+}
+img#robo{
+    width: 800;
+}
+.titulos{
+    background-image: linear-gradient(to right, #C5E9D5, #E9F6EE, #F9FDFB);
+    font-family: "Android";
+    color: #1A5C38;
+}
+#caixaVideo{
+    margin: 18px;
+    margin-left: 115px;
+}
+ul.lista{
+    display: inline-block;
+    list-style: none;
+    padding-right: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a.linkMenu{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
